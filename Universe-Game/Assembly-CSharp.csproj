@@ -57,6 +57,7 @@
   <ItemGroup>
      <Compile Include="Assets\FlightScript.cs" />
      <Compile Include="Assets\LagCamera.cs" />
+     <Compile Include="Assets\PickUp.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/User/Documents/GitHub/Universe-game/Universe-Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

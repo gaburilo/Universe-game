@@ -13,6 +13,9 @@ public class FlightScript : MonoBehaviour
 
     private Rigidbody _rigidBody;
 
+    public GameObject plane;
+
+
     // Use this for initialization
     void Start()
     {
@@ -52,6 +55,14 @@ public class FlightScript : MonoBehaviour
         if (Input.GetButton("Boost"))
         {
             _rigidBody.velocity = AddPos * (Time.fixedDeltaTime * Boost);
+        }
+
+
+        //plain collition
+        float TerrainHeight = Terrain.activeTerrain.SampleHeight(transform.position);
+        if (TerrainHeight+2 > transform.position.y)
+        {
+            transform.position = new Vector3(transform.position.x, TerrainHeight + 2, transform.position.z);
         }
     }
 }
