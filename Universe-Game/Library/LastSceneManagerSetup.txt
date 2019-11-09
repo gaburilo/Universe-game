@@ -1,5 +1,7 @@
 sceneSetups:
-- path: Assets/Scenes/SolarSystem.unity
+
+- path: Assets/Main Menu/Menu Scene.unity
+
   isLoaded: 1
   isActive: 1
   isSubScene: 0
