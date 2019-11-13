@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Main Menu\MainMenuButtons.cs" />
+     <Compile Include="Assets\Scripts\Attractor.cs" />
      <Compile Include="Assets\Scripts\FlightScript.cs" />
      <Compile Include="Assets\Scripts\LagCamera.cs" />
      <Compile Include="Assets\Scripts\PickUp.cs" />
