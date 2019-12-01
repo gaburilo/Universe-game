@@ -8,6 +8,9 @@ public class PickUp : MonoBehaviour
     public GameObject item;
     public GameObject tempParent;
     public Transform guide;
+    public float thrust = 1.0f;
+
+
 
 
 
@@ -40,6 +43,7 @@ public class PickUp : MonoBehaviour
         item.GetComponent<Rigidbody>().isKinematic = false;
         item.transform.parent = null;
         item.transform.position = guide.transform.position;
+        item.GetComponent<Rigidbody>().AddForce(transform.forward * thrust);
 
     }
 }

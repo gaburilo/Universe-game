@@ -5,20 +5,36 @@ public class MachineCollision : MonoBehaviour
 {
 
 
-    public GameObject cube;
-    public GameObject spawner;
+    //public GameObject cube;
+    //public GameObject spawner;
+    public GameObject container;
+    public GameObject trigger;
+
+    void start()
+    {
+        //cube.SetActive(false);
+    }
 
 
    void OnCollisionEnter(Collision collisionInfo)
     {
-        if (collisionInfo.collider.tag == "Electric")
+        if (collisionInfo.collider.tag == trigger.tag)
         {
-            spawn();
+            //spawn();
+            //setVisble();
+            Destroy(container);
         }
     }
 
-    void spawn()
+    /*void spawn()
     {
         Instantiate(cube, spawner.transform.position, spawner.transform.rotation);
     }
+
+    void setVisble()
+    {
+        cube.SetActive(true);
+    }*/
+
+
 }
