@@ -55,11 +55,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\LowPolyEarth\EarthSpinScript.cs" />
      <Compile Include="Assets\Main Menu\MainMenuButtons.cs" />
      <Compile Include="Assets\Scripts\Attractor.cs" />
      <Compile Include="Assets\Scripts\FlightScript.cs" />
      <Compile Include="Assets\Scripts\LagCamera.cs" />
+     <Compile Include="Assets\Scripts\MachineCollision.cs" />
      <Compile Include="Assets\Scripts\PickUp.cs" />
+     <Compile Include="Assets\Scripts\PickUpV2.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/User/Documents/GitHub/Universe-game/Universe-Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

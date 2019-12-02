@@ -8,13 +8,16 @@ public class PickUp : MonoBehaviour
     public GameObject item;
     public GameObject tempParent;
     public Transform guide;
+    public float thrust = 1.0f;
+
+
 
 
 
     // Start is called before the first frame update
     void Start()
     {
-        item.GetComponent<Rigidbody>().useGravity = true;
+        //item.GetComponent<Rigidbody>().useGravity = true;
 
     }
 
@@ -26,7 +29,7 @@ public class PickUp : MonoBehaviour
 
     void OnMouseDown()
     {
-        item.GetComponent<Rigidbody>().useGravity = false;
+        //item.GetComponent<Rigidbody>().useGravity = false;
         item.GetComponent<Rigidbody>().isKinematic = true;
         item.transform.position = guide.transform.position;
         item.transform.rotation = guide.transform.rotation;
@@ -36,10 +39,11 @@ public class PickUp : MonoBehaviour
 
     void OnMouseUp()
     {
-        item.GetComponent<Rigidbody>().useGravity = true;
+        //item.GetComponent<Rigidbody>().useGravity = true;
         item.GetComponent<Rigidbody>().isKinematic = false;
         item.transform.parent = null;
         item.transform.position = guide.transform.position;
+        item.GetComponent<Rigidbody>().AddForce(transform.forward * thrust);
 
     }
 }

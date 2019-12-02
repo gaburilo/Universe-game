@@ -1,25 +1,19 @@
-﻿using System.Collections;
+﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
 public class MainMenuButtons : MonoBehaviour {
-
-    public bool isStart;
-    public bool isQuit;
-
-    private void OnMouseUp()
+    public void ButtonStart()
     {
-        if(isStart)
-        {
-            
-            SceneManager.LoadScene(0);
-        }
-
-        if(isQuit)
-        {
-            Application.Quit();
-        }
+        SceneManager.LoadScene(2);
+           
     }
+
+    public void ButtonQuit()
+    {
+        Application.Quit();
+    }
+
 }
