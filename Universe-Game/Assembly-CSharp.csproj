@@ -56,6 +56,19 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\LowPolyEarth\EarthSpinScript.cs" />
+     <Compile Include="Assets\Main Menu CORRECT\Scripts\LoadSceneOnCLick.cs" />
+     <Compile Include="Assets\Main Menu CORRECT\Scripts\QuitOnCLick.cs" />
+     <Compile Include="Assets\Main Menu CORRECT\UnitySample UI\Scripts\ActiveStateToggler.cs" />
+     <Compile Include="Assets\Main Menu CORRECT\UnitySample UI\Scripts\ApplicationManager.cs" />
+     <Compile Include="Assets\Main Menu CORRECT\UnitySample UI\Scripts\ChangeColor.cs" />
+     <Compile Include="Assets\Main Menu CORRECT\UnitySample UI\Scripts\DragMe.cs" />
+     <Compile Include="Assets\Main Menu CORRECT\UnitySample UI\Scripts\DragPanel.cs" />
+     <Compile Include="Assets\Main Menu CORRECT\UnitySample UI\Scripts\DropMe.cs" />
+     <Compile Include="Assets\Main Menu CORRECT\UnitySample UI\Scripts\PanelManager.cs" />
+     <Compile Include="Assets\Main Menu CORRECT\UnitySample UI\Scripts\ResizePanel.cs" />
+     <Compile Include="Assets\Main Menu CORRECT\UnitySample UI\Scripts\ScrollDetailTexture.cs" />
+     <Compile Include="Assets\Main Menu CORRECT\UnitySample UI\Scripts\ShowSliderValue.cs" />
+     <Compile Include="Assets\Main Menu CORRECT\UnitySample UI\Scripts\TiltWindow.cs" />
      <Compile Include="Assets\Main Menu\MainMenuButtons.cs" />
      <Compile Include="Assets\Scripts\Attractor.cs" />
      <Compile Include="Assets\Scripts\FlightScript.cs" />
@@ -63,6 +76,10 @@
      <Compile Include="Assets\Scripts\MachineCollision.cs" />
      <Compile Include="Assets\Scripts\PickUp.cs" />
      <Compile Include="Assets\Scripts\PickUpV2.cs" />
+     <Compile Include="Assets\Scripts\ShipCollision.cs" />
+     <None Include="Assets\Main Menu CORRECT\UnitySample UI\Fonts\Jupiter\LICENSE.txt" />
+     <None Include="Assets\Main Menu CORRECT\UnitySample UI\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+     <None Include="Assets\Main Menu CORRECT\UnitySample UI\Materials\UI-Default-No-Alpha.shader" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/User/Documents/GitHub/Universe-game/Universe-Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
