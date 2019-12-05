@@ -55,6 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Corvostudio\AtmosphereAndClouds\Script\CloudMover.cs" />
      <Compile Include="Assets\LowPolyEarth\EarthSpinScript.cs" />
      <Compile Include="Assets\Main Menu CORRECT\Scripts\LoadSceneOnCLick.cs" />
      <Compile Include="Assets\Main Menu CORRECT\Scripts\QuitOnCLick.cs" />
@@ -87,7 +88,10 @@
      <None Include="Assets\ODYSSEY\Shaders\SimpleFresnel\SimpleFresnel.shader" />
      <None Include="Assets\Main Menu CORRECT\UnitySample UI\Textures and Sprites\SF UI\Background\LICENSE.txt" />
      <None Include="Assets\ODYSSEY\Shaders\Odissey\Odissey.shader" />
+     <None Include="Assets\Corvostudio\AtmosphereAndClouds\Shaders\COutsideClouds.shader" />
+     <None Include="Assets\Corvostudio\AtmosphereAndClouds\Shaders\CAtmosphere.shader" />
      <None Include="Assets\Main Menu CORRECT\UnitySample UI\Materials\UI-Default-No-Alpha.shader" />
+     <None Include="Assets\Corvostudio\AtmosphereAndClouds\Shaders\CInsideClouds.shader" />
      <None Include="Assets\ODYSSEY\Shaders\Odissey\Odissey B.shader" />
      <None Include="Assets\ODYSSEY\Shaders\SimpleFresnel\SimpleFresnel Legacy.shader" />
  <Reference Include="Unity.Timeline.Editor">
