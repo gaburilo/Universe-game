@@ -39,7 +39,7 @@ public class Hover_Cube : MonoBehaviour
 
     void OnMouseExit()
     {
-        displayinfo = false;
+        displayinfo = false; // set to true if you don't want text to disappear then delete code below (fadeText)
     }
     void FadeText()
     {
