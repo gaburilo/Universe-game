@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+﻿
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -54,7 +51,7 @@ public class TurnBack : MonoBehaviour
         if (GuiOn == true)
         {
             // Make a group on the center of the screen
-            GUI.BeginGroup(new Rect((Screen.width - BoxSize.width) / 2, (Screen.height - BoxSize.height) / 2, BoxSize.width, BoxSize.height));
+            GUI.BeginGroup(new Rect((Screen.width - BoxSize.width) , (Screen.height - BoxSize.height) , BoxSize.width, BoxSize.height));
             // All rectangles are now adjusted to the group. (0,0) is the topleft corner of the group.
 
             GUI.Label(BoxSize, Text);

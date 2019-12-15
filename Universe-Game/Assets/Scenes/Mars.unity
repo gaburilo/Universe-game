@@ -826,7 +826,7 @@ RectTransform:
   m_Children:
   - {fileID: 606859357}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -877,7 +877,7 @@ GameObject:
   - component: {fileID: 1287860704}
   - component: {fileID: 1287860703}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Message2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -903,8 +903,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 400
-    height: 400
+    width: 800
+    height: 100
   customSkin: {fileID: 11400000, guid: 9b7c35982c4ec6344940bd16d9ff5d3a, type: 2}
 --- !u!65 &1287860704
 BoxCollider:
@@ -973,8 +973,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1287860702}
   m_LocalRotation: {x: -0.30303487, y: -0.56863165, z: -0.1251682, w: 0.75442755}
-  m_LocalPosition: {x: 1058.9, y: 1796, z: -598}
-  m_LocalScale: {x: 184.37936, y: 88.2636, z: 103.52399}
+  m_LocalPosition: {x: 993, y: 1835, z: -598}
+  m_LocalScale: {x: 492.54706, y: 319.3174, z: 483.46213}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 15
@@ -993,7 +993,7 @@ GameObject:
   - component: {fileID: 1317066544}
   - component: {fileID: 1317066543}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Message1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1011,7 +1011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04f7eb98c4eb42a4098939e4d3df6eeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GuiOn: 1
+  GuiOn: 0
   Text: 'Hud message:  Almost all water on Mars today exists as ice, water may still
     flow on Mars, but that doesn''t mean it''s easy to spot. you are on a mission
     to gather elements to produce as much water as possible. '
@@ -1019,8 +1019,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 400
-    height: 400
+    width: 800
+    height: 100
   customSkin: {fileID: 11400000, guid: 9b7c35982c4ec6344940bd16d9ff5d3a, type: 2}
 --- !u!65 &1317066544
 BoxCollider:
@@ -1031,7 +1031,7 @@ BoxCollider:
   m_GameObject: {fileID: 1317066542}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1042,7 +1042,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1317066542}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1089,8 +1089,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1317066542}
   m_LocalRotation: {x: -0.024350889, y: -0.54163224, z: -0.05871963, w: 0.83820856}
-  m_LocalPosition: {x: 1443, y: 1466, z: -597}
-  m_LocalScale: {x: 154.86499, y: 77.86153, z: 235.81282}
+  m_LocalPosition: {x: 1508, y: 1537, z: -507}
+  m_LocalScale: {x: 679.4581, y: 389.3373, z: 285.35986}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14
@@ -1159,7 +1159,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1502719833
 PrefabInstance:
@@ -1171,7 +1171,12 @@ PrefabInstance:
     - target: {fileID: 8559696504828950912, guid: 58cdf5d75f080d747a3a680ce7cfd61f,
         type: 3}
       propertyPath: m_Name
-      value: SpaceshipUnity1.1
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559696504828950912, guid: 58cdf5d75f080d747a3a680ce7cfd61f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4652639830233942931, guid: 58cdf5d75f080d747a3a680ce7cfd61f,
         type: 3}
@@ -1310,6 +1315,121 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58cdf5d75f080d747a3a680ce7cfd61f, type: 3}
+--- !u!1 &1564518707
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1564518712}
+  - component: {fileID: 1564518711}
+  - component: {fileID: 1564518710}
+  - component: {fileID: 1564518709}
+  - component: {fileID: 1564518708}
+  m_Layer: 0
+  m_Name: Message3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1564518708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564518707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f7eb98c4eb42a4098939e4d3df6eeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GuiOn: 0
+  Text: 'If spaceship successfully grabs an energy block , display the following message:
+    SUCCESS! '
+  BoxSize:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 800
+    height: 100
+  customSkin: {fileID: 11400000, guid: 9b7c35982c4ec6344940bd16d9ff5d3a, type: 2}
+--- !u!65 &1564518709
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564518707}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1564518710
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564518707}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1564518711
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564518707}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1564518712
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564518707}
+  m_LocalRotation: {x: -0.036826458, y: -0.5573797, z: -0.011620863, w: 0.82935923}
+  m_LocalPosition: {x: 65, y: 2163, z: 8}
+  m_LocalScale: {x: 492.54706, y: 319.3174, z: 483.46213}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: -4.2460003, y: -67.853004, z: 1.251}
 --- !u!1 &1570662978
 GameObject:
   m_ObjectHideFlags: 0
