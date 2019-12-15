@@ -8,10 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Planet1.unity
     guid: 415332f2d06e71042bc2729f80cf800d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Main Menu/Menu Scene.unity
     guid: 35397eeeba5133a45a0ad125e2976237
   - enabled: 1
     path: Assets/Scenes/Mars.unity
     guid: e49f79b1fac00174fb0f4c759b40816e
+  - enabled: 1
+    path: Assets/Main Menu CORRECT/Scenes/MainMenu.unity
+    guid: 08141dca87645d743aa6beaa10cb8816
   m_configObjects: {}

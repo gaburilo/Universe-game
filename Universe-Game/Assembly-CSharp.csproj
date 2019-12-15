@@ -78,7 +78,6 @@
     <Compile Include="Assets\Main Menu CORRECT\UnitySample UI\Scripts\ScrollDetailTexture.cs" />
     <Compile Include="Assets\Main Menu CORRECT\UnitySample UI\Scripts\ShowSliderValue.cs" />
     <Compile Include="Assets\Main Menu CORRECT\UnitySample UI\Scripts\TiltWindow.cs" />
-    <Compile Include="Assets\Main Menu\MainMenuButtons.cs" />
     <Compile Include="Assets\Messages\Hover_Cube.cs" />
     <Compile Include="Assets\Messages\Text_Cube.cs" />
     <Compile Include="Assets\Scripts\Attractor.cs" />
