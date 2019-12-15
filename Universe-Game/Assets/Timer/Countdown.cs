@@ -18,9 +18,12 @@ public class Countdown : MonoBehaviour
 
     void Update()
     {
-        currentTime -= 1 * Time.deltaTime;
-        countdownText.text = currentTime.ToString("0");
 
+        //counts down by 1
+        currentTime -= 1 * Time.deltaTime;
+        countdownText.text = currentTime.ToString("0"); //helps countdown whole numbers
+        
+        //makes timer stop at 0
         if (currentTime <= 0)
         {
             currentTime = 0;
