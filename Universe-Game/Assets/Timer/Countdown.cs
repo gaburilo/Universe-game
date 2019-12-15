@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Countdown : MonoBehaviour
 {
     float currentTime = 0f;
-    float startingTime = 10f; //can change to whatever number you want it to start at
+    float startingTime = 120f; //can change to whatever number you want it to start at
 
     [SerializeField] Text countdownText;
 
