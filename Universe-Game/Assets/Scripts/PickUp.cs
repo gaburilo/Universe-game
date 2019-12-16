@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PickUp : MonoBehaviour
 {
 
@@ -10,9 +11,7 @@ public class PickUp : MonoBehaviour
     public Transform guide;
     public float thrust = 1.0f;
 
-
-
-
+   
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +34,7 @@ public class PickUp : MonoBehaviour
         item.transform.rotation = guide.transform.rotation;
         item.transform.parent = tempParent.transform;
 
+        
     }
 
     void OnMouseUp()
@@ -45,5 +45,6 @@ public class PickUp : MonoBehaviour
         item.transform.position = guide.transform.position;
         item.GetComponent<Rigidbody>().AddForce(transform.forward * thrust);
 
+       
     }
 }
