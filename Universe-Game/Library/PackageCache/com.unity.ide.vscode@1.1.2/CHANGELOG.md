@@ -1,10 +1,5 @@
 # Code Editor Package for Visual Studio Code
 
-## [1.1.3] - 2019-10-22
-
-Exe version of vscode will use Normal ProcessWindowStyle while cmd will use Hidden
-
-
 ## [1.1.2] - 2019-08-30
 
 Fixing OSX open command arguments
