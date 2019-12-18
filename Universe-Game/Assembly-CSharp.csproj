@@ -81,6 +81,7 @@
      <Compile Include="Assets\Scripts\ShipCollision.cs" />
      <Compile Include="Assets\Timer\Countdown.cs" />
      <Compile Include="Assets\TurnBack.cs" />
+     <None Include="Assets\Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set\documentation - Low-Poly_Sci-Fi_Desert_Units_Set.txt" />
      <None Include="Assets\Main Menu CORRECT\UnitySample UI\Fonts\Jupiter\LICENSE.txt" />
      <None Include="Assets\Main Menu CORRECT\UnitySample UI\Textures and Sprites\SF UI\Background\LICENSE.txt" />
      <None Include="Assets\Corvostudio\AtmosphereAndClouds\Shaders\COutsideClouds.shader" />
