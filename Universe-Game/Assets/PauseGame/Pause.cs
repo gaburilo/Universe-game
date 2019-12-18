@@ -1,41 +1,44 @@
-﻿using System.Collections;
+﻿// Pause Button code
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Pause : MonoBehaviour
 {
-
     public GameObject PauseScreen;
     public GameObject PauseButton;
 
-    bool GamePaused;
-
+    bool gamePaused;
 
     // Start is called before the first frame update
     void Start()
     {
-        GamePaused = false;
+        gamePaused = false;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (GamePaused)
+        if (gamePaused)
             Time.timeScale = 0;
         else
             Time.timeScale = 1;
+
     }
 
     public void PauseGame()
     {
-        GamePaused = true;
+        gamePaused = true;
         PauseScreen.SetActive(true);
         PauseButton.SetActive(false);
     }
 
     public void ResumeGame()
     {
-        GamePaused = false;
+        gamePaused = false;
+
         PauseScreen.SetActive(false);
         PauseButton.SetActive(true);
     }
