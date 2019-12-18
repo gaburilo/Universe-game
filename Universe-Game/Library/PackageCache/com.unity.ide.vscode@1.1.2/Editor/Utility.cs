@@ -17,7 +17,6 @@ namespace VSCodeEditor
                 {
                     indexOfDot = i;
                 }
-
                 if (indexOfSlash == 0 && path[i] == '/' || path[i] == '\\')
                 {
                     indexOfSlash = i + 1;
@@ -27,7 +26,7 @@ namespace VSCodeEditor
 
             if (indexOfDot == -1)
             {
-                indexOfDot = path.Length;
+                indexOfDot = path.Length - 1;
             }
 
             return path.Substring(indexOfSlash, indexOfDot - indexOfSlash);
